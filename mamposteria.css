@@ -1,11 +1,38 @@
 body{
-    background-color: yellow;
+    background-color: lightpink;
 }
 
 figure{
   padding-left: 50px;
   padding-right: 50px;
   float: left;
+  
 
 
+}
+figcaption{
+  color: blue; font-size: large
+
+}
+#prepa{
+  color: darkred;
+}
+#ingre{
+  color: darkred;
+  text-decoration-line: underline;
+}
+
+#prueba1{
+  text-decoration-line: underline; text-decoration-color: green; font-size: x-large;
+  text-decoration-style: wavy;
+}
+#prueba2{
+  text-decoration-line: underline; text-decoration-color: orange; font-size: large;
+  text-decoration-style: double; text-shadow: 1px 1px 2px black
+}
+#receta{
+  text-align: left;
+}
+#olla{
+  font-size: xx-large; text-shadow: 1px 1px 2px black
 }
