@@ -102,26 +102,24 @@ p {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.clase1{
-    text-align: center ;
-    padding-top: 1%;
-    
-    
+#demo{
+    text-align: center;
+    padding-left: 30%;
+    max-width: 40%;
+    max-height: 40%;
 }
 #histo {
     font-size: 24px;
     color: rgb(22, 27, 179);
 }
 
-/*nav.clase1{
-    text-align: center ;
-    
-}*/
+
 
 
 
 figure {
     text-align: center;
+    
     width: 750px;
     height: 850px;
     padding-left: 200px;
