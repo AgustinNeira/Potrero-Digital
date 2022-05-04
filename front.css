@@ -28,6 +28,7 @@ section{
     padding: 10px;
     box-sizing: border-box;
     
+    
 
 
 }
@@ -45,16 +46,28 @@ aside{
     
     
     
+    
 }
 footer{
-    background-color: ;
-    color: aliceblue;
-    padding: 5px;
+    
+    text-align: center;
+    justify-content: left;
     clear: both;
+    box-sizing: border-box;
+    position: relative ;
+    
 }
+.flotante {
+        display: scroll ;
+        position: fixed;
+        bottom:10px;
+        right:0px;
+        
+        
+}
+
 .flex-container {
     border: 5px solid rgb (144, 12, 63);
-    background: ;
     padding: 10px;
     flex-flow: row wrap;
     display: flex;
@@ -136,11 +149,7 @@ p {
     color: rgb(22, 27, 179);
     text-align: left;
     padding: 20px;
+    box-sizing: border-box;
+    height: 400px;
+    overflow: auto;
 }
-
-
-
-
-
-
-
