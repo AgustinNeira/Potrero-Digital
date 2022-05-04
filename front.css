@@ -22,9 +22,12 @@ section{
     background-color: rgb(255, 195, 0,);
     font-size: 25px;
     padding: 5%;
-    width: 40%;
+    width: 43%;
     float: left;
     margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    
 
 
 }
@@ -33,20 +36,25 @@ aside{
     /*border: 10px solid rgb(66, 217, 196 )*/;
     padding-left: 5px;
     margin: 25px;
-    width: 40%;
+    width: 43%;
+    float: left;
     float: left;
     margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    
     
     
 }
 footer{
-    background-color: black;
+    background-color: ;
+    color: aliceblue;
     padding: 5px;
     clear: both;
 }
 .flex-container {
     border: 5px solid rgb (144, 12, 63);
-    background: rgb(0, 0, 0);
+    background: ;
     padding: 10px;
     flex-flow: row wrap;
     display: flex;
@@ -57,7 +65,7 @@ footer{
 div.caja1 {
     border: 5px ;
     border-radius: 10px;
-    background-color: rgb(255, 195, 0);
+    ;
     background-size: contain;
     font-size: xx-large;
     color: azure;
@@ -71,7 +79,7 @@ div.caja1 {
 div.caja2 {
     border: 5px ;
     border-radius: 10px;
-    background-color: rgb(255, 195, 0);
+    ;
     background-size: contain;
     font-size: xx-large;
     color: azure;
@@ -86,7 +94,7 @@ div.caja2 {
 div.caja3 {
     border: 5px ;
     border-radius: 10px;
-    background-color: rgb(255, 195, 0);
+    ;
     background-size: contain;
     font-size: xx-large;
     color: azure;
@@ -100,7 +108,7 @@ div.caja3 {
 div.caja4 {
     border: 5px ;
     border-radius: 10px;
-    background-color: rgb(255, 195, 0);
+    ;
     background-size: contain;
     font-size: xx-large;
     color: azure;
