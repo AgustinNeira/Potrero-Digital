@@ -1,0 +1,131 @@
+body {
+    background-image: url(img/fondo2.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    color: black;
+    
+    
+
+    /*background-color: rgb(206, 138, 46);*/
+}
+* {
+    font: white;
+    font-size: 30 px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+section{
+    background-color: rgb(255, 195, 0,);
+    font-size: 25px;
+    padding: 5%;
+
+}
+aside{
+    background-color: rgb(255, 195, 0,);
+    /*border: 10px solid rgb(66, 217, 196 )*/;
+    padding-left: 5px;
+    margin: 25px;
+    
+}
+.flex-container {
+    border: 5px solid rgb (144, 12, 63);
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    flex-flow: row wrap;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+div.caja1 {
+    border: 5px ;
+    border-radius: 10px;
+    background-color: rgb(255, 195, 0);
+    background-size: contain;
+    font-size: xx-large;
+    color: azure;
+    font-weight: 800;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    flex-grow: 6;
+}
+div.caja2 {
+    border: 5px ;
+    border-radius: 10px;
+    background-color: rgb(255, 195, 0);
+    background-size: contain;
+    font-size: xx-large;
+    color: azure;
+    font-weight: 800;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    flex-grow: 4;
+    
+}
+div.caja3 {
+    border: 5px ;
+    border-radius: 10px;
+    background-color: rgb(255, 195, 0);
+    background-size: contain;
+    font-size: xx-large;
+    color: azure;
+    font-weight: 800;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    flex-grow: 4;
+}
+div.caja4 {
+    border: 5px ;
+    border-radius: 10px;
+    background-color: rgb(255, 195, 0);
+    background-size: contain;
+    font-size: xx-large;
+    color: azure;
+    font-weight: 800;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    flex-grow: 4;
+}
+p {
+    text-align: center;
+}
+.claselogo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.clase1{
+    text-align: center ;
+    padding-top: 1%;
+    
+    
+}
+#histo {
+    font-size: 24px;
+    color: rgb(22, 27, 179);
+}
+
+/*nav.clase1{
+    text-align: center ;
+    
+}*/
+
+
+
+figure {
+    text-align: center;
+    width: 750px;
+    height: 850px;
+    padding-left: 200px;
+    padding-right: 200px;
+    float: right;
+    width: auto;
+}
