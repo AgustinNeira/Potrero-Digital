@@ -9,6 +9,7 @@ body {
 
     /*background-color: rgb(206, 138, 46);*/
 }
+
 * {
     font: white;
     font-size: 30 px;
@@ -57,13 +58,14 @@ footer{
     position: relative ;
     
 }
-.flotante {
-        display: scroll ;
-        position: fixed;
-        bottom:10px;
-        right:0px;
-        
-        
+img {
+    border: 5px;
+    border-radius: 45px;
+    
+}
+iframe {
+    border: 5px;
+    border-radius: 45px;
 }
 
 .flex-container {
