@@ -1,6 +1,6 @@
 body {
     background-image: url(img/fondo2.jpg);
-    background-repeat: repeat;
+    background-size: cover;
     background-attachment: fixed;
     background-position: 50% 50%;
     color: black;
@@ -173,4 +173,16 @@ p {
     line-height: 45px;
     text-align: center;
     border-radius: 50%;
+}
+a:link {
+    color: rgb(47, 131, 8);
+}
+a:visited {
+    color: rgb(59, 1, 5);
+}
+a:hover {
+    color: rgb(136, 22, 29);
+}
+a:active {
+    color: lightseagreen;
 }
