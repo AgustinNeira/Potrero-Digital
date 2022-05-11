@@ -63,6 +63,7 @@ img {
     border-radius: 45px;
     
 }
+
 iframe {
     border: 5px;
     border-radius: 45px;
@@ -74,7 +75,7 @@ iframe {
     flex-flow: row wrap;
     display: flex;
     width: 80%;
-    margin: auto;
+    margin: 10%;
     justify-content: space-between;
 }
 div.caja1 {
@@ -88,7 +89,7 @@ div.caja1 {
     text-align: center;
     width: 30px;
     height: 30px;
-    justify-content: center;
+    justify-content: space-between;
     flex-grow: 6;
 }
 div.caja2 {
@@ -102,7 +103,7 @@ div.caja2 {
     text-align: center;
     width: 30px;
     height: 30px;
-    justify-content: center;
+    justify-content: space-between;
     flex-grow: 4;
     
 }
@@ -117,7 +118,7 @@ div.caja3 {
     text-align: center;
     width: 30px;
     height: 30px;
-    justify-content: center;
+    justify-content: space-around;
     flex-grow: 4;
 }
 div.caja4 {
@@ -131,7 +132,7 @@ div.caja4 {
     text-align: center;
     width: 30px;
     height: 30px;
-    justify-content: center;
+    justify-content: space-between  ;
     flex-grow: 4;
 }
 p {
@@ -155,6 +156,19 @@ p {
     height: 400px;
     overflow: auto;
 }
+
+a:link {
+    color: rgb(47, 131, 8);
+}
+a:visited {
+    color: rgb(59, 1, 5);
+}
+a:hover {
+    color: rgb(136, 22, 29);
+}
+a:active {
+    color: lightseagreen;
+}
 #btn-mas {
     display: none;
 }
@@ -174,18 +188,27 @@ p {
     text-align: center;
     border-radius: 50%;
 }
-a:link {
-    color: rgb(47, 131, 8);
+.clase2 {
+    width: 50%;
+    border-radius: 50%;
+    border: solid brown;
 }
-a:visited {
-    color: rgb(59, 1, 5);
+
+img.clase2:hover{
+        width: 90%;
+        border: 5px;
+        border-radius: 45px;
+        
 }
-a:hover {
-    color: rgb(136, 22, 29);
+.form {
+    background-color: blanchedalmond;
+    text-align: start;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 20px;
+    float: left;
+    max-width: 40%;
 }
-a:active {
-    color: lightseagreen;
-}
-.preparacion {
-    overflow: auto;
+span:hover{
+    color: rgb(188, 103, 248);
 }
