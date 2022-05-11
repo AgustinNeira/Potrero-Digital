@@ -135,6 +135,34 @@ div.caja4 {
     justify-content: space-between  ;
     flex-grow: 4;
 }
+div.caja5 {
+    border: 5px ;
+    border-radius: 10px;
+    ;
+    background-size: contain;
+    font-size: xx-large;
+    color: azure;
+    font-weight: 800;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    justify-content: space-between  ;
+    flex-grow: 4;
+}
+div.caja51 {
+    border: 5px ;
+    border-radius: 10px;
+    ;
+    background-size: contain;
+    font-size: xx-large;
+    color: azure;
+    font-weight: 800;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    justify-content: space-between  ;
+    flex-grow: 4;
+}
 p {
     text-align: center;
 }
