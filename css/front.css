@@ -229,13 +229,18 @@ img.clase2:hover{
         
 }
 .form {
-    background-color: blanchedalmond;
+    
     text-align: start;
     box-sizing: border-box;
     justify-content: center;
     margin: 20px;
     float: left;
     max-width: 40%;
+    
+}
+.form:hover{
+    background-color: blanchedalmond;
+    transition: all 0.5s ease;
 }
 span:hover{
     color: rgb(188, 103, 248);
