@@ -1,210 +1,155 @@
-body {
-    background-image: url(img/fondo2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    color: black;
-    
-    
-
-    /*background-color: rgb(206, 138, 46);*/
-}
-@font-face {
-    font-family: 'pacifico';
-    src: url("/fuentes/Pacifico-Regular.ttf") 
-    format('truetype')
-}
-
-/*** {
-    font: white;
-    font-size: 30 px;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    
-}**/
-header{
-    text-align: center;
-    
-    
-}
-img.logos{
-    width: 15vw;
-    height: auto;
-}
-section{
-    background-color: rgb(255, 195, 0,);
-    font-size: 2rem;
-    padding: 5%;
-    width: 43%;
-    float: left;
-    margin: 1%;
+*{
+    margin: 10px;
     padding: 10px;
     box-sizing: border-box;
-    
-    
-
-
-}
-aside{
-    background-color: rgb(255, 195, 0,);
-    /*border: 10px solid rgb(66, 217, 196 )*/;
-    padding-left: 5px;
-    margin: 25px;
-    width: 43%;
-    float: left;
-    float: left;
-    margin: 1%;
-    padding: 1em;
-    box-sizing: border-box;
-    
-    
-    
-    
-}
-footer{
-    
-    text-align: center;
-    justify-content: left;
-    clear: both;
-    box-sizing: border-box;
-    position: relative ;
-    
-}
-img {
-    border: 5px;
-    border-radius: 45px;
-    
-}
-.logo1{
-    
-    max-width: 25%;
-    max-height: 50%;
-    
+    font-size: 2vh; 
     
 }
 
-iframe {
-    border: 5px;
-    border-radius: 45px;
+/* celulares */
+@media (min-width:600px) {
+  body { font-size: 15px;
+    background-color: #4B8673;
+}
 }
 
-.flex-container {
-    border: 5px solid rgb (144, 12, 63);
-    padding: 1em;
-    flex-flow: row wrap;
+/* celualres 2 */
+@media (min-width: 800px) {
+  body { font-size: 16px;
+    background-color: #4B8673}
+}
+
+/* pantallas  */
+@media (min-width: 992px) {
+  body { 
+    background: #BDF2D5; }
+
+}
+/* pantallas grandes */
+@media (min-width: 1200px) {
+    body { 
+      background: #BDF2D5; }
+  
+  }
+
+.padre{
     display: flex;
-    width: 80%;
-    margin: 1%;
-    margin-left: 10%;
-    justify-content: space-between;
-}
-div.caja1 {
-    border: 5px ;
-    border-radius: 10px;
-    ;
-    background-size: contain;
-    font-size: xx-large;
-    color: azure;
-    font-weight: 800;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    justify-content: space-between;
-    flex-grow: 6;
-}
-div.caja2 {
-    border: 5px ;
-    border-radius: 10px;
-    ;
-    background-size: contain;
-    font-size: xx-large;
-    color: azure;
-    font-weight: 800;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    justify-content: space-between;
-    flex-grow: 4;
-    
-}
-div.caja3 {
-    border: 5px ;
-    border-radius: 10px;
-    ;
-    background-size: contain;
-    font-size: xx-large;
-    color: azure;
-    font-weight: 800;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    justify-content: space-around;
-    flex-grow: 4;
-}
-div.caja4 {
-    border: 5px ;
-    border-radius: 10px;
-    ;
-    background-size: contain;
-    font-size: xx-large;
-    color: azure;
-    font-weight: 800;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    justify-content: space-between  ;
-    flex-grow: 4;
-}
-div.caja5 {
-    border: 5px ;
-    border-radius: 10px;
-    ;
-    background-size: contain;
-    font-size: xx-large;
-    color: azure;
-    font-weight: 800;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    justify-content: space-between  ;
-    flex-grow: 4;
-}
-div.caja51 {
-    border: 5px ;
-    border-radius: 10px;
-    ;
-    background-size: contain;
-    font-size: xx-large;
-    color: azure;
-    font-weight: 800;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    justify-content: space-between  ;
-    flex-grow: 4;
-}
-p {
-    text-align: center;
-}
-.claselogo{
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    flex-flow: column nowrap;
 
-#demo{
-    font-family: 'pacifico', Arial, "Helvetica Neue", Helvetica, sans-serif;;
-    
 }
-#histo {
-    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 2rem;
-    color: rgb(22, 27, 179);
-    text-align: left;
-    padding: 1em;
-    box-sizing: border-box;
-    height: 400px;
-    overflow: auto;
-}
+        .header{
+            background-color: #ECEFA4;
+            display: flex;
+            flex-flow: column nowrap;
+            
 
+        }
+            .menu{
+                background: #D9DD6B;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-items: center;
+                align-content: center;
+                
+            }
+                .logo{
+                    background: #eef18f;
+                    flex: 2 1 auto;
+                }
+                .receta1{
+                    background: #D9DD6B;
+                    flex: 1 1 auto;
+                }
+                .receta{
+                    background: #D9DD6B;
+                    flex: 1 1 auto;
+                }
+              
+        .section{
+            background-color: #D9DD6B;
+            ;
+
+        }
+            .articulos{
+                background-color: #D9DD6B;
+                display: flex;
+                flex-flow: row  ;
+                justify-content: space-between;
+                align-items: center;
+                align-content: space-around
+            }
+                .article{
+                    background: #D9DD6B;
+
+                }
+                .navegacion{
+                    background: #8D2828;
+                }
+            .aside{
+                background: #D9DD6B;
+                display: flex;
+                flex-flow: wrap;
+                justify-content: space-between;
+                align-items: center;
+                align-content: space-around;
+            }    
+                .publicidad{
+                    background-color: #D9DD6B;
+                }
+                .publicidad1{
+                    order: 1;
+                    flex: 3 1 auto;
+                }
+                .publicidad2{
+                    order: 2;
+                    flex: 3 1 auto;
+                }
+                .publicidad3{
+                    order: 7;
+                    flex: auto;
+                }
+                .publicidad4{
+                    order: 3;
+                    flex: auto;
+                }
+                .publicidad5{
+                    order: 6;
+                    flex: auto  ;
+                }
+                .publicidad6{
+                    order: 4;
+                    flex: auto;
+                    
+                }
+                .publicidad7{
+                    order: 5;
+                    flex: auto;
+                }
+                
+        
+                #btn-mas {
+                    display: none;
+                }
+                .container {
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                    align-items: center;
+                }
+                .redes a, .icon-mas2 {
+                    display: block;
+                    text-decoration: none;
+                    background: #cc2b2b;
+                    color: #fff;
+                    width: 7vh;
+                    height: 7vh;
+                    line-height: 45px;
+                    text-align: center;
+                    border-radius: 50%;
+                    
+                }
+        
 a:link {
     color: rgb(47, 131, 8);
 }
@@ -217,51 +162,12 @@ a:hover {
 a:active {
     color: lightseagreen;
 }
-#btn-mas {
-    display: none;
+img.aa{
+    max-width: 35vm;
 }
-.container {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-.redes a, .icon-mas2 {
-    display: block;
-    text-decoration: none;
-    background: #cc2b2b;
-    color: #fff;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    border-radius: 50%;
-}
-.clase2 {
-    width: 50%;
-    border-radius: 50%;
-    border: solid brown;
-}
-
-img.clase2:hover{
-        width: 32vw;
-        border: 1%;
-        border-radius: 45px;
-        
-}
-.form {
+img.aa:hover{
+    width: 40vw;
+    border: 1%;
+    border-radius: 45px;
     
-    text-align: start;
-    box-sizing: border-box;
-    justify-content: center;
-    margin: 20px;
-    float: left;
-    max-width: 40%;
-    
-}
-.form:hover{
-    background-color: blanchedalmond;
-    transition: all 0.5s ease;
-}
-span:hover{
-    color: rgb(188, 103, 248);
 }
