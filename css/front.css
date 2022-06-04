@@ -9,6 +9,9 @@
 img{
     max-width: 38em
 }
+img.as{
+    max-width: 130px;
+}
 
 
 @media (orientation: landscape) and (min-width: 540px) {
