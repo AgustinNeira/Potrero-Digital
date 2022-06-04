@@ -2,172 +2,24 @@
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
-    font-size: 2vh; 
+    font-size: 1rem; 
     
 }
 
-/* celulares */
-@media (min-width:600px) {
-  body { font-size: 15px;
-    background-color: #4B8673;
-}
+img{
+    max-width: 38em
 }
 
-/* celualres 2 */
-@media (min-width: 800px) {
-  body { font-size: 16px;
-    background-color: #4B8673}
-}
 
-/* pantallas  */
-@media (min-width: 992px) {
-  body { 
-    background: #BDF2D5; }
+@media (orientation: landscape) and (min-width: 540px) {
+    body {
+        background-color: #C0EDA6;;
 
-}
-/* pantallas grandes */
-@media (min-width: 1200px) {
-    body { 
-      background: #BDF2D5; }
-  
-  }
-
-.padre{
-    display: flex;
-    flex-flow: column nowrap;
-
-}
-        .header{
-            background-color: #ECEFA4;
-            display: flex;
-            flex-flow: column nowrap;
-            
-
-        }
-            .menu{
-                background: #D9DD6B;
-                display: flex;
-                flex-flow: row nowrap;
-                justify-content: space-between;
-                align-items: center;
-                align-content: center;
-                
-            }
-                .logo{
-                    background: #eef18f;
-                    flex: 2 1 auto;
-                }
-                .receta1{
-                    background: #D9DD6B;
-                    flex: 1 1 auto;
-                }
-                .receta{
-                    background: #D9DD6B;
-                    flex: 1 1 auto;
-                }
-              
-        .section{
-            background-color: #D9DD6B;
-            ;
-
-        }
-            .articulos{
-                background-color: #D9DD6B;
-                display: flex;
-                flex-flow: row  ;
-                justify-content: space-between;
-                align-items: center;
-                align-content: space-around
-            }
-                .article{
-                    background: #D9DD6B;
-
-                }
-                .navegacion{
-                    background: #8D2828;
-                }
-            .aside{
-                background: #D9DD6B;
-                display: flex;
-                flex-flow: wrap;
-                justify-content: space-between;
-                align-items: center;
-                align-content: space-around;
-            }    
-                .publicidad{
-                    background-color: #D9DD6B;
-                }
-                .publicidad1{
-                    order: 1;
-                    flex: 3 1 auto;
-                }
-                .publicidad2{
-                    order: 2;
-                    flex: 3 1 auto;
-                }
-                .publicidad3{
-                    order: 7;
-                    flex: auto;
-                }
-                .publicidad4{
-                    order: 3;
-                    flex: auto;
-                }
-                .publicidad5{
-                    order: 6;
-                    flex: auto  ;
-                }
-                .publicidad6{
-                    order: 4;
-                    flex: auto;
-                    
-                }
-                .publicidad7{
-                    order: 5;
-                    flex: auto;
-                }
-                
-        
-                #btn-mas {
-                    display: none;
-                }
-                .container {
-                    position: fixed;
-                    bottom: 20px;
-                    right: 20px;
-                    align-items: center;
-                }
-                .redes a, .icon-mas2 {
-                    display: block;
-                    text-decoration: none;
-                    background: #cc2b2b;
-                    color: #fff;
-                    width: 7vh;
-                    height: 7vh;
-                    line-height: 45px;
-                    text-align: center;
-                    border-radius: 50%;
-                    
-                }
-        
-a:link {
-    color: rgb(47, 131, 8);
-}
-a:visited {
-    color: rgb(59, 1, 5);
-}
-a:hover {
-    color: rgb(136, 22, 29);
-}
-a:active {
-    color: lightseagreen;
-}
-img.aa{
-    max-width: 35vm;
-}
-img.aa:hover{
-    width: 40vw;
-    border: 1%;
-    border-radius: 45px;
+    }
     
+}
+@media (max-width: 720px) {
+    body{
+        background-color: #9D5353;
+    }
 }

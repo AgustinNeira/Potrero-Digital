@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facil Cocina V3</title>
-    <meta name="Recetas" content="Recetas faciles.">
-    <meta name="Cocina" content="Comida rapida.">
-    <meta name="Comida" content="Preparacion de platos.">
-    <meta name="Guisos" content="Nutricion.">
-    <link rel="stylesheet" href="css/front.css">
-    <link rel="stylesheet" href="css/fontello.css">
-    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facil Cocina</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/fontello.css">
+<link rel="stylesheet" href="css/front.css">
+
 </head>
 <body>
-   <div class="padre">
-       <header class="header">
-           <div class="menu">
-                <div class="logo">
-                    <img src="img/logo.png">
-                </div>
-                <div class="receta1">
-                    <a href="https://cookpad.com/ar/recetas/16207289-tarta-de-zuccini-y-pollo?ref=search&search_term=pollo" target="_blank"> Mesa para 1
-                    </a> 
-                </div>
-                <div class="receta">
-                    <a href="https://www.recetasgratis.net/receta-de-cocido-de-la-abuela-75855.html" target="_blank">Mesa para 2</a>
-                
-                </div>
-                <div class="contacto">
-                    <a href="https://agustinneira.github.io/Potrero-Digital/contactos.html" target="_blank">
-                        Contactos
-                        </a>
-                </div>
+<div class="m-4">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="img/logo.png" alt="logo"></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Proxima receta</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contacto</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item"><a href="https://wa.me/542614665150?text=¡Estoy+interesado+en+recibir+info!" target="_blank" class="icon-whatsapp">Whatsapp</a></a>
+                            <a href="#" class="dropdown-item"><a href="https://www.facebook.com/CristianAguxtin/" target="_blank" class="icon-facebook">Facebook</a></a>
+                            <a href="#" class="dropdown-item"><a href="https://www.instagram.com/quecocinarmza/" target="_blank" class="icon-instagram">Instagram</a></a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Admin</a>
+                        
+                    </li>
+                </ul>
             </div>
-        </header>
-
-
-        <section class="section">
-            <div class="articulos"> 
-                <article class="article"><h1>Como hacer locro criollo y un repaso a su historia</h1>
-                    <p>
+        </div>
+    </nav>    
+</div>
+<div class="m-4">
+    <div class="card-group">
+        <div class="card">
+            <img src="img/locro1.jpg" class="card-img-top" alt="locro">
+            <div class="card-body">
+                <h5 class="card-title">Como hacer locro criollo y un repaso a su historia</h5>
+                <p class="card-text">
                         Un clásico argentino y la comida obligada para el 25 de mayo o el 9 de julio. Esta comida que preparaban los abuelos a abuelas en las casas para esas fechas, o incluso los que tenían suertes ¡más de dos veces al año!, es sin duda parte de nuestra gastronomía y si no lo sabías, ¡la receta de locro tiene cientos de años!
                 
                 ¿Cuál es la historia del locro? Cuenta una de las leyendas de su origen que el locro es fruto de la cocina de los pueblos originarios quechua, o quichua, que lo llamaron “luqru” o “rucru”. Este guiso se preparaba a base de zapallo, maíz y porotos. Es de origen precolombino, es decir previo a Colón ¡hace muchísimos años! Algunos ingredientes de su receta original de locro pueden cambiar según la tradición que tenga cada provincia argentina, pero hay algo que se mantiene en todas: base vegetal y cocción a fuego lento durante varias horas.
@@ -48,78 +58,87 @@
                 Además de este origen autóctono, la receta argentina del locro muestra claramente los aportes gastronómicos que hicieron los europeos: mondongo, chancho y chorizo, entre otros, fueron aportados por los españoles.
                 
                 Pero, ¿Cómo hacer locro? con este paso a paso vas a poder disfrutar de un locro calentito cuando vos quieras. Eso sí, a no asustarte con el listado de ingredientes que lleva el locro y el tamaño de olla que vas a necesitar, esta es una receta de locro patrio ¡y bien criollo!
-                    </p></article>
-                <article class="article"><h1><span>Historia del locro</span></h1>
-                    En Argentina su consumo se ha extendido desde el Noroeste y Cuyo hacia el resto del país. En la provincia argentina del Neuquén además del locro de maíz se prepara una especie de locro con arvejas, y en el Noreste argentino se prepara también el locro sobre la base de la mandioca.
-
-                    Aunque el locro argentino tiene orígenes indoamericanos, su preparación argentina desde al menos hace tres siglos sintetiza los aportes gastronómicos europeos: por ejemplo el chancho, los chorizos, mondongo y numerosos aliños han sido aportados por los europeos (especialmente por los españoles).
-                    Alimento con muchas calorías y nutrientes, el locro resulta muy adecuado para consumir durante los inviernos o en zonas frías. Tradicionalmente se consume de manera masiva el 1 y el 25 de mayo, día en que se conmemora la formación del primer gobierno patrio argentino, el cual se estableció el 25 de mayo de 1810. Por este motivo, ha pasado de ser un plato regional y tradicional a ser uno de los platos nacionales de Argentina para festejar las fechas patrias: en las dos fechas patrias argentinas - 25 de mayo, fecha desde 1810 de la independencia de facto o concreta de Argentina desde 1810, y 9 de julio, fecha en que, en 1816 en San Miguel de Tucumán, explícitamente fue proclamada la independencia argentina. Suele ser tradicional el desayuno de infusiones de chocolate con leche y facturas que se dan en las escuelas el 25 de mayo y el 9 de julio, a diferencia del también tradicional mate cocido que se suele dar durante la mayor parte de cada año en las escuelas públicas, cuarteles y regimientos militares, etcétera, acompañados por pastelitos criollos. Eventualmente existe la costumbre de convidar a los invitados con pequeñas cazuelas de locro en las celebraciones de casamientos.</article>
-                
-                
+                    </p>
             </div>
-        </section>
-            <aside class="aside">
-                
-                <div class="publicidad1"><h2><span>Lista de ingredientes: </span></h2>
-                        <ol>
-                            <li> 500 gramos de maíz blanco partido</li>
-                            <li>500 gramos de porotos pallares blancos</li>
-                            <li>4 cubito de caldo de verduras Knorr</li>
-                            <li>2 litros de agua</li>
-                            <li>250 gramos de pechito de cerdo</li>
-                            <li>500 gramos de patitas de cerdo</li>
-                            <li>125 gramos de panceta ahumada</li>
-                            <li>500 gramos de falda de ternera</li>
-                            <li>125 gramos de chorizo colorado</li>
-                            <li>125 gramos de chorizo de cerdo</li>
-                            <li>500 gramos de zapallo</li>
-                            <li>125 gramos de morrón rojo</li>
-                            <li>125 gramos de cebolla de verdeo</li>
-                            <li>125 gramos de puerros</li>
-                            <li>125 gramos de zanahoria</li>
-                            <li>1 cucharadita de pimentón picante</li>
-                            <li>Pimienta molida a gusto</li>
-                        </ol>
-                </div>
-                <div class="publicidad2"><h1><span>Preparacion:</span></h1>
-                        <ol>
-                            <li>Hidratá los porotos y el maíz durante 12 horas.</li>
-                            <li>Prepará el caldo con el agua y los cubitos de verdura. Reservá.</li>
-                            <li>Cortá el pechito de cerdo, la falda y la panceta en cubos.</li>
-                            <li>Retirá la piel del chorizo colorado y del chorizo de cerdo. Cortalo en trozos.</li>
-                            <li>Picá el morrón, el puerro, la cebolla de verdeo y reservá.</li>
-                            <li>Cortá el zapallo y las zanahorias en trozos medianos.</li>
-                            <li>En una olla rehogá la panceta, luego agregá el pechito de cerdo y la falda hasta dorar. Adicioná el pimentón picante.</li>
-                            <li>Incorporá todos los vegetales excepto el zapallo.</li>
-                            <li>Adicioná los chorizos y las patitas de cerdo.</li>
-                            <li>Integrá el maíz, los porotos y la calabaza junto al caldo hasta cubrir la preparación.</li>
-                            <li>Cociná a fuego bajo de 90 a 120 minutos aproximadamente.</li>
-                        </ol>
-                </div>
-                
-                <div class="publicidad3"><iframe width="auto" height="auto" src="https://www.youtube.com/embed/gZZ0sSMhI_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="publicidad4">  <h2>Procedencia</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3081807.1431523077!2d-64.87063890367062!3d-26.228841079422924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945c9a9dd26efc69%3A0x9b2da9bc35d9d51d!2sNordeste%20argentino!5e0!3m2!1ses!2sar!4v1651613189506!5m2!1ses!2sar" width="400" height="515" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-                <div class="publicidad5"><audio controls>
-                    <source src="audio.ogg" type="audio/ogg">
-                    <source src="audio.m4a" type="audio/mpeg">
-                    <source src="audio.wav" type="audio/wav">
-                </audio></div>
-                <div class="publicidad6"><img src="img/locro1.jpg" alt="locro1" class="aa"></div>
-                <div class="publicidad7"><img src="img/locro2.jpg" alt="" class="aa"></div>
-            </aside>
-
-            <footer class="footer">
-                <div class="container">
-                    <input type="checkbox" name="" id="btn-mas">
-                    <div class="redes">
-                        <a href="https://wa.me/542614665150?text=¡Estoy+interesado+en+recibir+info!" target="_blank" class="icon-whatsapp"></a>
-                        <a href="https://www.facebook.com/CristianAguxtin/" target="_blank" class="icon-facebook"></a>
-                        <a href="https://www.instagram.com/quecocinarmza/" target="_blank" class="icon-instagram"></a>
-                        <a href="https://github.com/AgustinNeira" target="_blank" class="icon-github"></a>
-                    </div>
-                </div>    
-            </footer>
-   </div>
+        </div>
+        <div class="card">
+            <img src="img/locro2.jpg" class="card-img-top" alt="locro">
+            <div class="card-body">
+                <h5 class="card-title">Historia del locro</h5>
+                <p class="card-text">En Argentina su consumo se ha extendido desde el Noroeste y Cuyo hacia el resto del país. En la provincia argentina del Neuquén además del locro de maíz se prepara una especie de locro con arvejas, y en el Noreste argentino se prepara también el locro sobre la base de la mandioca.
+                    Aunque el locro argentino tiene orígenes indoamericanos, su preparación argentina desde al menos hace tres siglos sintetiza los aportes gastronómicos europeos: por ejemplo el chancho, los chorizos, mondongo y numerosos aliños han sido aportados por los europeos (especialmente por los españoles).
+                    Alimento con muchas calorías y nutrientes, el locro resulta muy adecuado para consumir durante los inviernos o en zonas frías. Tradicionalmente se consume de manera masiva el 1 y el 25 de mayo, día en que se conmemora la formación del primer gobierno patrio argentino, el cual se estableció el 25 de mayo de 1810. Por este motivo, ha pasado de ser un plato regional y tradicional a ser uno de los platos nacionales de Argentina para festejar las fechas patrias: en las dos fechas patrias argentinas - 25 de mayo, fecha desde 1810 de la independencia de facto o concreta de Argentina desde 1810, y 9 de julio, fecha en que, en 1816 en San Miguel de Tucumán, explícitamente fue proclamada la independencia argentina. Suele ser tradicional el desayuno de infusiones de chocolate con leche y facturas que se dan en las escuelas el 25 de mayo y el 9 de julio, a diferencia del también tradicional mate cocido que se suele dar durante la mayor parte de cada año en las escuelas públicas, cuarteles y regimientos militares, etcétera, acompañados por pastelitos criollos. Eventualmente existe la costumbre de convidar a los invitados con pequeñas cazuelas de locro en las celebraciones de casamientos.</p>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Lista de ingredientes: </h2>
+        <p><ol>
+            <li> 500 gramos de maíz blanco partido</li>
+            <li>500 gramos de porotos pallares blancos</li>
+            <li>4 cubito de caldo de verduras Knorr</li>
+            <li>2 litros de agua</li>
+            <li>250 gramos de pechito de cerdo</li>
+            <li>500 gramos de patitas de cerdo</li>
+            <li>125 gramos de panceta ahumada</li>
+            <li>500 gramos de falda de ternera</li>
+            <li>125 gramos de chorizo colorado</li>
+            <li>125 gramos de chorizo de cerdo</li>
+            <li>500 gramos de zapallo</li>
+            <li>125 gramos de morrón rojo</li>
+            <li>125 gramos de cebolla de verdeo</li>
+            <li>125 gramos de puerros</li>
+            <li>125 gramos de zanahoria</li>
+            <li>1 cucharadita de pimentón picante</li>
+            <li>Pimienta molida a gusto</li>
+        </ol></p>   
+    </div>
+    <div class="col-md-4">
+        <h2>Preparacion:</h2>
+        <p><ol>
+            <li>Hidratá los porotos y el maíz durante 12 horas.</li>
+            <li>Prepará el caldo con el agua y los cubitos de verdura. Reservá.</li>
+            <li>Cortá el pechito de cerdo, la falda y la panceta en cubos.</li>
+            <li>Retirá la piel del chorizo colorado y del chorizo de cerdo. Cortalo en trozos.</li>
+            <li>Picá el morrón, el puerro, la cebolla de verdeo y reservá.</li>
+            <li>Cortá el zapallo y las zanahorias en trozos medianos.</li>
+            <li>En una olla rehogá la panceta, luego agregá el pechito de cerdo y la falda hasta dorar. Adicioná el pimentón picante.</li>
+            <li>Incorporá todos los vegetales excepto el zapallo.</li>
+            <li>Adicioná los chorizos y las patitas de cerdo.</li>
+            <li>Integrá el maíz, los porotos y la calabaza junto al caldo hasta cubrir la preparación.</li>
+            <li>Cociná a fuego bajo de 90 a 120 minutos aproximadamente.</li>
+        </ol></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Procedencia</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3081807.1431523077!2d-64.87063890367062!3d-26.228841079422924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945c9a9dd26efc69%3A0x9b2da9bc35d9d51d!2sNordeste%20argentino!5e0!3m2!1ses!2sar!4v1651613189506!5m2!1ses!2sar" width="200" height="257" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <p><a href="https://www.google.com/maps/?hl=es" target="_blank" class="btn btn-success">A Google  &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        
+        <iframe width="200" height="257" src="https://www.youtube.com/embed/gZZ0sSMhI_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p><a href="https://www.google.com/maps/?hl=es" target="_blank" class="btn btn-success">A Google &raquo;</a></p>
+    </div>
+</div>
+<hr>
+<footer>
+    <div class="row">
+        <div class="col-md-6">
+            <p>Copyright &copy; 2022 Cristian Agustin Neira Palacios</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+            <a href="#" class="text-dark">Terminos de uso</a> 
+            <span class="text-muted mx-2">|</span> 
+            <a href="#" class="text-dark">Politica de privacidad</a>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
